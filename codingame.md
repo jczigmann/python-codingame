@@ -43,6 +43,12 @@ s.replace('Bonjour', 'Salut')
 ''.join(sorted(s))               # tri des caractères
 ''.join(sorted(s, key=str.lower))# tri sans casse
 ```
+### startwith / endwith / 
+```python
+fichier = "rapport_final.txt"
+print (s.endwith('.txt'))                  # True
+print (s.endwith('.pdf'))                  # False
+```
 ### Exemples pratiques
 ```python
 text = " Bonjour Le Monde "
