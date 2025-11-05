@@ -159,12 +159,19 @@ print(villes[(43.7034, 7.2663)])
 | Clé de dict | `d[(x, y)] = "coord"` | possible |
 
 ---
-
+9
 ## 💡 À retenir
 
-> Les **tuples** sont **immutables**, **ordonnés** et **rapides**.  
+> Les **tuples** sont **immutables**, **ordonnés** et **rapides**.
+> sert a stocker des données constantes et structurées
 > Utilise-les pour des **données fixes**, le **retour multiple** de fonctions  
 > ou la **déstructuration** simple d’objets.
+> Exemple :
+>> retourner plusieurs valeurs depuis une fonction
+>> représenter un enregistrement fixe (coordonnées, date, etc.),
+>> stocker des données de référence (par exemple, des constantes de configuration).
+>> Une fois créé, son contenu ne peut plus être modifié : pas d’ajout, suppression ni remplacement.
+>> Plus rapide et plus léger qu’une liste → idéal pour des données stables et figées
 
 ---
 
